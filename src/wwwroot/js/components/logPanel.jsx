@@ -3,10 +3,10 @@ import { connect } from 'react-redux';
 import LogSource from './logSource';
 
 const FilteredLogPanel = ({filter, logSources}) => (
-    
+
     <div className='component'> {
         logSources.filter(source => source.sourceName.toLowerCase().indexOf(filter.toLowerCase()) > -1)
-                   .map(source => { <LogSource key={source.sourceName} logSource={source} /> })
+            .map(source => <LogSource key={source.sourceName} logSource={source} />)
     }
     </div>
 );
