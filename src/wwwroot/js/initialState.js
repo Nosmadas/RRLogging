@@ -5,7 +5,7 @@ const initialState = {
     },
     logSources: [
         {
-            sourceName: 'Unity Provisioning Service',
+            sourceName: 'Provisioning Service',
             environment: 'Staging',
             instance: 'Instance 1',
             version: '1.0.0',
@@ -23,6 +23,15 @@ const initialState = {
                 "Telemarketer did a funny.",
                 "Hosting started.",
                 "Executing cool stuff"
+            ]
+        },
+                {
+            sourceName: 'Distance API',
+            environment: 'Development',
+            instance: 'ADAMSON-XPS',
+            version: '2.2.1',
+            logs: [
+                "Searching for: L9 1JN"
             ]
         }
     ],

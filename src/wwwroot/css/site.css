@@ -1,11 +1,31 @@
 body {
-    padding: 20px; 
+   font-family: 'Roboto', sans-serif;
 }
 
 .component {
     padding: 10px;
 }
 
+.appContainer {
+    margin-Top: 80px;
+}
+
+.paper {
+    height: 140px;
+    width: 120px;
+    padding: 10px;
+    margin: 20px;
+}
+
 .logs {
     margin: 0 10 0 10;
+}
+
+.logSourceContainer {
+    display: inline-block;
+}
+
+.logSource:hover {
+    color: darkgrey;
+    cursor: pointer;
 }
